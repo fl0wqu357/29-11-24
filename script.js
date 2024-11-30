@@ -8,6 +8,6 @@ button.addEventListener('click', () => {
     if (inputValue.trim() !== '') {
         text.textContent = inputValue;
     } else {
-        alert('Por favor, escribe algo en el campo de texto.');
+        alert('Por favor, escribí algo en el campo de texto.');
     }
 });
